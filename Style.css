@@ -1,26 +1,133 @@
-h1{
-    text-align:center;color:rgb(148, 58, 233)
+header{
+    width: 100%;
+    text-align: center;
+    border-block-end: 2px solid;
 }
-#logo
+.logo
 {
   float: right;
   width: 150px;
   height: 150px;
 }
+.titre{
+    border: 2px dashed;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+padding: 4px;
+}
+nav{
+display: inline-block;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: rgba(124, 120, 120, 0.795);
+}
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('banniere.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+.style{
+    display: flex;
+    align-items: center;
+}
+.style1{
+    display: flex;
+    align-items: center;
+}
+.style2{
+    display: flex;
+    align-items: center;
+}
+.style3{
+    display: flex;
+    align-items: center;
+}
+.maison{
+    float: left;
+    width: 50px;
+  height: 50px;
+  padding:20px;
+  margin-top:  0px;
+}
+.car{
+    float: left;
+    width: 50px;
+  height: 50px;
+  padding:20px;
+  margin-top:  0px;
+}
+.phone{
+    float: left;
+    width: 50px;
+  height: 50px;
+  padding:20px;
+  margin-top:  0px;
+}
+.enveloppe{
+    float: left;
+    width: 50px;
+  height: 50px;
+  padding:20px;
+  margin-top:  0px;
+}
+h1{
+    text-align:center;color:rgb(148, 58, 233);
+    margin-top: 0px;
+    padding: 0px;
+    height: 20px;
+}
+
+h3{
+    font-size:25px;
+    text-align: center;
+    border: 3px;
+}
+h3:hover{
+    letter-spacing: 1ch;
+    text-decoration: underline;
+    color: rgb(197, 24, 91); 
+    transition: 2s;
+}
+h5{
+    font-size: 15px;
+    height: 5px;
+}
 body{
-    background-image: url("fond cv.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Inconsolata', monospace;
+    background-image: url("fond cv.jpg")
     background-repeat: no-repeat;
     min-height: 100%;
     min-width: 1024px;
-    
-}
-body{
-    font-family: 'Inconsolata', monospace;
 }
 .annee
 {
 font-weight:bold;
 }
-h3{
-    font-size:25px
+.colone1{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
+}
+.colone2{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
+}
+.colone3{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
 }
