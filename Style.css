@@ -1,18 +1,36 @@
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+        flex-direction: column;
+    }    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #logo
+    {
+        display: none;
+    }
+}
 header{
     width: 100%;
     text-align: center;
     border-block-end: 2px solid;
+    background: linear-gradient(#dae8ec,#81c8bd);
 }
 body{
 font-family: 'Inconsolata', monospace;
 }
-.logo
+#logo
 {
   float: right;
   width: 150px;
   height: 150px;
+  border-radius: 60%;
 }
-.MC{}
 .DEV{
     font-size: 20px;
     margin-bottom: 30px;
@@ -44,8 +62,6 @@ color: rgba(124, 120, 120, 0.795);
     max-height: 800px;
 }
 
-
-
 .style{
     display: flex;
     align-items: center;
@@ -64,29 +80,29 @@ color: rgba(124, 120, 120, 0.795);
 }
 .maison{
     float: left;
-    width: 50px;
-  height: 50px;
+    width: 40px;
+  height: 40px;
   padding:20px;
   margin-top:  0px;
 }
 .car{
     float: left;
-    width: 50px;
-  height: 50px;
+    width: 40px;
+  height: 40px;
   padding:20px;
   margin-top:  0px;
 }
 .phone{
     float: left;
-    width: 50px;
-  height: 50px;
+    width: 40px;
+  height: 40px;
   padding:20px;
   margin-top:  0px;
 }
 .enveloppe{
     float: left;
-    width: 50px;
-  height: 50px;
+    width: 40px;
+  height: 40px;
   padding:20px;
   margin-top:  0px;
 }
