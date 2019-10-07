@@ -1,0 +1,176 @@
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+        flex-direction: column;
+    }    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    #logo
+    {
+        display: none;
+    }
+}
+header{
+    width: 100%;
+    text-align: center;
+    border-block-end: 2px solid;
+    background: linear-gradient(#dae8ec,#81c8bd);
+}
+body{
+font-family: 'Inconsolata', monospace;
+}
+#logo
+{
+  float: right;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+}
+.DEV{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+nav{
+display: inline-block;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: rgba(124, 120, 120, 0.795);
+}
+#banniere_image
+{
+    margin-top: 0px;
+    height: 62px;
+    border-radius: 5px;
+    background: url('banniere.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+.derouler{
+    height: auto;
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: max-height 3s;
+}
+.divendehorsdediv:hover .derouler {
+    max-height: 800px;
+}
+
+.style{
+    display: flex;
+    align-items: center;
+}
+.style1{
+    display: flex;
+    align-items: center;
+}
+.style2{
+    display: flex;
+    align-items: center;
+}
+.style3{
+    display: flex;
+    align-items: center;
+}
+.maison{
+    float: left;
+    width: 40px;
+  height: 40px;
+  padding:20px;
+  margin-top:  0px;
+}
+.car{
+    float: left;
+    width: 40px;
+  height: 40px;
+  padding:20px;
+  margin-top:  0px;
+}
+.phone{
+    float: left;
+    width: 40px;
+  height: 40px;
+  padding:20px;
+  margin-top:  0px;
+}
+.enveloppe{
+    float: left;
+    width: 40px;
+  height: 40px;
+  padding:20px;
+  margin-top:  0px;
+}
+h1{
+    text-align:center;
+    color:rgba(53, 124, 206, 0.664);
+    margin-top: 0px;
+    padding: 0px;
+    height: 20px;
+}
+
+h3{
+    font-size:22px;
+    color:rgba(255, 255, 255, 0.979);
+    text-align: center;
+    border: 3px;
+}
+h3:hover{
+    letter-spacing: 1ch;
+    text-decoration: underline;
+    color: rgba(207, 23, 115, 0.822); 
+    transition: 2s;
+}
+h4{
+    text-shadow: 1px 1px 1px rgb(97, 97, 97);   
+}
+h5{
+    font-size: 15px;
+    height: 5px;
+}
+.tableau{
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Inconsolata', monospace;
+    background-image: url("fond cv.jpg")
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 1024px;
+}
+.annee
+{
+font-weight:bold;
+text-shadow: 1px 1px 1px rgb(97, 97, 97);
+}
+.colone1{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
+}
+.colone2{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
+}
+.colone3{
+    text-align: center;
+    width: 33%;
+    min-width: 200px;
+    height: 300px;
+}
+
+.colone4{
+text-align: center;
+border:3px outset rgba(126, 121, 121, 0.685);
+border-radius: 20px/30px;
+margin-right: 20px;
+margin-left: 225px;
+width: 200px;
+}
